@@ -1,0 +1,67 @@
+@import "UTF-8";
+/*Backup import in case the one on the html does not function */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/* Background colours */
+main{
+    border: solid,grey;
+}
+body{
+    border: solid, white ;
+}
+/* Orange  text */
+h1{
+    color: rgb(250, 134, 25, 1);
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: black;
+}
+.hunter{
+    color:rgba(250, 134, 25, 1)
+}
+/* Main text */
+section{
+    font-size: large;
+}
+h2, p{
+    display: grid;
+    
+}
+h2{
+    font-size: 1.3rem;
+    font-family: 'Playfair Display', serif;
+}
+/* Class and exclusive positioning and alterations*/
+.first, .road{
+    float: left;
+    position: static;
+}
+.second{
+    
+    border: white solid;
+    padding: 10px 25px;
+    float: right, bottom;
+    position: static;
+    text-align: right;
+    
+
+}
+.flip{
+    float: left;
+    position: static;
+    
+    font-family: 'Courier New';
+
+}
+.road{
+    font-size: 2rem;
+    
+    
+    
+}
+.gordon{
+    text-transform: uppercase;
+    
+}
+img{
+    float: left;
+    position: relative;
+}
